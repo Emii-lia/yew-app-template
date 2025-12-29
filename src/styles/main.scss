@@ -1,0 +1,16 @@
+@use "./components";
+@use "./features";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body {
+  font-family: 'Poppins', Abel, "Roboto Slab", sans-serif;
+}
+.app {
+  @apply h-screen w-screen flex flex-col;
+}
+.page-container {
+  @apply w-full p-6 pl-72 flex flex-col gap-4;
+}
