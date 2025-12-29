@@ -1,4 +1,4 @@
-# Yewi-kit
+# Yew app template
 An **App template for Yew** inspired by **React / Next.ts architecture**, featuring:
 - Component-local folders
 - Separated logic into custom hooks
