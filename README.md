@@ -6,12 +6,12 @@ An **App template for Yew** inspired by **React / Next.ts architecture**, featur
 
 ## Component Structure
 
-| Concern              | Location                        |
-| -------------------- |---------------------------------|
-| View (JSX / HTML)    | `mod.rs`                        |
-| Logic (custom hooks) | `hooks.rs`                      |
+| Concern              | Location                         |
+| -------------------- |----------------------------------|
+| View (JSX / HTML)    | `mod.rs`                         |
+| Logic (custom hooks) | `hooks.rs`                       |
 | Utilities            | `(types/data/utils/contants).rs` |
-| Styles               | `style.scss`                    |
+| Styles               | `*.scss`                         |
 
 ## Folder structure
 
