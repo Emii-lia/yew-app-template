@@ -985,6 +985,7 @@ dependencies = [
 name = "yew-werewolf-client"
 version = "0.1.0"
 dependencies = [
+ "gloo",
  "wasm-logger",
  "web-sys",
  "yew",

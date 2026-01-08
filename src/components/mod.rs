@@ -11,6 +11,9 @@ mod tabs;
 mod avatar_group;
 mod collapse;
 mod file_input;
+mod password_input;
+mod carousel;
+mod progress;
 
 pub use button::*;
 pub use input::*;
@@ -25,3 +28,6 @@ pub use tabs::*;
 pub use avatar_group::*;
 pub use collapse::*;
 pub use file_input::*;
+pub use password_input::*;
+pub use carousel::*;
+pub use progress::*;
