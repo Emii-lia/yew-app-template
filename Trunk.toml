@@ -3,7 +3,7 @@ addreess = "127.0.0.1"
 port = 8081
 
 [[hooks]]
-stage = "build"
+stage = "pre_build"
 command = "sh"
 command_arguments = [
     "-c", "sass ./src/styles/main.scss ./dist/main.css && npx tailwindcss -i ./dist/main.css -o ./src/styles/global.css --minify"
