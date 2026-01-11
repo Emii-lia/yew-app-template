@@ -8,3 +8,6 @@ command = "sh"
 command_arguments = [
     "-c", "sass ./src/styles/main.scss ./dist/main.css && npx tailwindcss -i ./dist/main.css -o ./src/styles/global.css --minify"
 ]
+
+[watch]
+ignore = ["src/styles/global.css"]
