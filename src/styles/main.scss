@@ -13,7 +13,9 @@ html, body {
 }
 
 .Home {
-  @apply min-h-screen bg-white text-slate-950 flex items-center justify-center;
+  @apply min-h-screen bg-gradient-to-t from-white to-sky-100 text-slate-950 flex items-center justify-center;
+  @apply bg-no-repeat bg-center bg-cover;
+  background-image: url("/public/hero-bg.svg");
   .yewi-container {
     @apply w-full max-w-2xl px-6;
   }
@@ -31,7 +33,7 @@ html, body {
   }
 
   .yewi-tagline {
-    @apply text-xl text-slate-600 font-medium;
+    @apply text-xl text-slate-700 font-medium;
   }
 
   .yewi-main {
@@ -39,7 +41,7 @@ html, body {
   }
 
   .yewi-description {
-    @apply text-lg text-slate-600 text-center mb-8;
+    @apply text-lg text-slate-700 text-center mb-8;
   }
 
   .yewi-grid {
@@ -53,10 +55,10 @@ html, body {
     }
 
     code {
-      @apply block bg-slate-50 rounded px-3 py-2 text-sm font-mono text-slate-800;
+      @apply block bg-slate-50 rounded px-3 py-2 text-sm font-mono text-slate-900;
     }
     a {
-      @apply text-blue-600 hover:text-blue-700 hover:underline text-sm font-mono;
+      @apply text-sky-600 hover:text-sky-700 hover:underline text-sm font-mono;
     }
   }
 
