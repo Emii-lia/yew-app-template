@@ -6,7 +6,7 @@ port = 8081
 stage = "pre_build"
 command = "sh"
 command_arguments = [
-    "-c", "sass ./src/styles/main.scss ./dist/main.css && npx tailwindcss -i ./dist/main.css -o ./src/styles/global.css --minify"
+    "-c", "npx sass ./src/styles/main.scss ./dist/main.css && npx tailwindcss -i ./dist/main.css -o ./src/styles/global.css --minify"
 ]
 
 [watch]
