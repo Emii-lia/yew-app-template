@@ -12,15 +12,6 @@ pub enum AppRoute {
   NotFound,
 }
 
-impl AppRoute {
-  pub(crate) fn iter() -> impl Iterator<Item = AppRoute> {
-    vec![
-      AppRoute::Home,
-
-    ].into_iter()
-  }
-}
-
 pub fn switch(route: AppRoute) -> Html {
   match route {
     AppRoute::Home => html! {<Home/>},
