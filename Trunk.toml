@@ -4,10 +4,8 @@ port = 8081
 
 [[hooks]]
 stage = "pre_build"
-command = "sh"
-command_arguments = [
-    "-c", "npx sass ./src/styles/main.scss ./dist/main.css && npx tailwindcss -i ./dist/main.css -o ./src/styles/global.css --minify"
-]
+command = "npm"
+command_arguments = ["run", "build"]
 
 [watch]
 ignore = ["src/styles/global.css"]
