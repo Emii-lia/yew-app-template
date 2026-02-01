@@ -41,7 +41,7 @@ html, body {
 
   .yewi-title {
     @apply text-6xl font-black mb-2 tracking-tight;
-    background: linear-gradient(135deg, #475569 0%, #020617 100%);
+    @apply bg-gradient-to-r from-primary-600 to-primary-900;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -64,16 +64,16 @@ html, body {
   }
 
   .yewi-card {
-    @apply p-6 rounded-lg border border-slate-200 hover:border-slate-300 transition-colors;
+    @apply p-6 rounded-lg border border-primary-200 hover:border-primary-300 transition-colors;
     h3 {
       @apply font-semibold text-slate-900 mb-3 text-sm uppercase tracking-wide;
     }
 
     code {
-      @apply block bg-slate-50 rounded px-3 py-2 text-sm font-mono text-slate-900;
+      @apply block bg-primary-50 rounded px-3 py-2 text-sm font-mono text-slate-900;
     }
     a {
-      @apply text-sky-600 hover:text-sky-700 hover:underline text-sm font-mono;
+      @apply text-primary-600 hover:text-primary-700 hover:underline text-sm font-mono;
     }
   }
 
