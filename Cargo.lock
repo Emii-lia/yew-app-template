@@ -982,6 +982,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "yew_icons"
+version = "0.9.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9d3bb559581bf5e9952657146959a28c432b38fd4ad07fad2a1b31c69870001c"
+dependencies = [
+ "yew",
+]
+
+[[package]]
 name = "yewi-template"
 version = "0.1.0"
 dependencies = [
@@ -990,4 +999,5 @@ dependencies = [
  "web-sys",
  "yew",
  "yew-router",
+ "yew_icons",
 ]
