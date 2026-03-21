@@ -26,8 +26,8 @@ pub(crate) fn Home() -> Html {
             </div>
             <div class="yewi-card">
               <h3>{"Documentation"}</h3>
-              <a href="https://yewi.pages.dev" target="_blank" rel="noopener noreferrer">
-                {"yewi.pages.dev"}
+              <a href="https://yewi.fiaro.app" target="_blank" rel="noopener noreferrer">
+                {"yewi.fiaro.app"}
               </a>
             </div>
             <div class="yewi-card">
